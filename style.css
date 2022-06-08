@@ -21,7 +21,7 @@ padding: 0;}
 
 .row > [class^="col"] {
     background-color: blue;
-    min-height: 80px;
+    height: 80px;
     border: 1px solid rgb(251, 251, 251);
     padding: 10px;
 }
@@ -48,10 +48,9 @@ h3 {margin: 20px 0;
     color: black;}
 
 
-.last-container .row div [class="justify-around"] {
-        justify-content: space-around;
+.col-6-sm {
+    height: 50%;
+    background-color: beige;
 }
 
-.last-container .row div [class="justify-between"] {
-    justify-content: space-between;
-}
+
