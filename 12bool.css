@@ -83,3 +83,53 @@
     flex-basis: calc( 100% / 12 * 1);
     max-width: calc( 100% / 12 * 1);
 }
+
+/*Offset*/
+
+.col-12-offset {
+    margin-left: calc( 100% / 12 * 12);
+}
+
+.col-11-offset {
+    margin-left: calc( 100% / 12 * 11);
+}
+
+.col-10-offset {
+    margin-left: calc( 100% / 12 * 10);
+}
+
+.col-9-offset {
+    margin-left: calc( 100% / 12 * 9);
+}
+
+.col-8-offset {
+    margin-left: calc( 100% / 12 * 8);
+}
+
+.col-7-offset {
+    margin-left: calc( 100% / 12 * 7);
+}
+
+.col-6-offset {
+    margin-left: calc( 100% / 12 * 6);
+}
+
+.col-5-offset {
+    margin-left: calc( 100% / 12 * 5);
+}
+
+.col-4-offset {
+    margin-left: calc( 100% / 12 * 4);
+}
+
+.col-3-offset {
+    margin-left: calc( 100% / 12 * 3);
+}
+
+.col-2-offset {
+    margin-left: calc( 100% / 12 * 2);
+}
+
+.col-1-offset {
+    margin-left: calc( 100% / 12 * 1);
+}
