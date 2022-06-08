@@ -48,9 +48,8 @@ h3 {margin: 20px 0;
     color: black;}
 
 
-.col-6-sm {
+
+    
+.row .col-6-sm{
     height: 50%;
-    background-color: beige;
 }
-
-
