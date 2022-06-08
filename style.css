@@ -2,6 +2,14 @@
 margin: 0;
 padding: 0;}
 
+/*Debug*/
+
+.row > [class^="col"] {
+    background-color: blue;
+    min-height: 100px;
+    border: 1px solid rgb(251, 251, 251);
+}
+
 /*Utils*/
 
 .container {
@@ -15,5 +23,5 @@ padding: 0;}
 
 /*Body*/
 
-body {background-color: aqua;}
+
 
