@@ -14,6 +14,14 @@
     flex-basis: auto;
 }
 
+/*Utils*/
+
+.d-flex {display: flex;}
+
+.justify-center {justify-content: center;}
+
+.align-center {align-items: center;}
+
 /*12Colonne*/
 
 .col-12 {
