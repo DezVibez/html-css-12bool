@@ -29,6 +29,7 @@ padding: 0;}
 .row > div[class^="col"] {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .nested {
@@ -46,8 +47,11 @@ color: black;}
 h3 {margin: 20px 0;
     color: black;}
 
-.col-6-sm {
-    flex-basis: calc( 100% / 12 * 6);
-    max-width: calc( 100% / 12 * 6);
-    min-height: 30px;
+
+.last-container .row div [class="justify-around"] {
+        justify-content: space-around;
+}
+
+.last-container .row div [class="justify-between"] {
+    justify-content: space-between;
 }
