@@ -29,6 +29,10 @@
 .align-start {align-items: flex-start;}
 .align-end {align-items: flex-end;}
 
+.align-self-start{align-self: flex-start;}
+.align-self-center {align-self: center;}
+.align-self-end {align-self: flex-end;}
+
 /*12Colonne*/
 
 .col-12 {
