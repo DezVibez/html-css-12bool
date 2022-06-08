@@ -27,14 +27,22 @@ padding: 0;}
     background-color: blue;
     height: 80px;
     border: 1px solid rgb(251, 251, 251);
-    padding: 10px 0px;
+    padding: 10px 10px;
+    display: flex;
+    text-align: center;
 }
 
-.row > [class^="col"] {
+.first-container .row > [class^="col"] {
+    background-color: blue;
+    height: 80px;
+    border: 1px solid rgb(251, 251, 251);
+    padding: 10px 10px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
+
+
 
 .nested {
 background-color: chartreuse;
@@ -51,11 +59,6 @@ color: black;}
 h3 {margin: 20px 0;
     color: black;}
 
-
-
-    
-.row .col-6-small{
+.container-alignment .col-6-small {
     height: 50%;
 }
-
-
